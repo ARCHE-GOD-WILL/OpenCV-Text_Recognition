@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 输出文件
+output/
+detectresult/
+denoise/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 旧文件（已弃用）
+Demo/
+TextRecognition/
+*.bat
+*.xaml
