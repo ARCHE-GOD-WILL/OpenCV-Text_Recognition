@@ -215,3 +215,20 @@ ocr_toolkit/
 ## 许可证
 
 MIT License
+
+## Web UI (Streamlit)
+
+Provide a visual interface for adjusting parameters and verifying results.
+
+### Launch
+
+```bash
+streamlit run app.py
+```
+
+### Features
+
+- **Visual Debugging**: See detected lines and intermediate processing steps.
+- **Parameter Tuning**: Adjust Canny/Hough thresholds in real-time.
+- **Data Export**: Download OCR results as CSV.
+- **Structure Visualization**: Verify if table rows/columns are correctly identified.
